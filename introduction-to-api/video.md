@@ -88,3 +88,17 @@ response = requests.post('https://api.fivemerr.com/v1/media/videos', files=files
 print(response.json())
 
 ```
+
+## Supported Video Type
+
+If you need any other added, let us know.
+
+* **MP4** - `.mp4`
+* **OGG** - `.ogg`
+* **WEBM** - `.webm`
+* **AVI** - `.avi`
+* **MKV** - `.mkv`
+* **MOV** - `.mov`
+* **WMV** - `.wmv`
+* **FLV** - `.flv`
+* **M4V** - `.m4v`
