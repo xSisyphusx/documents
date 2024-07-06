@@ -1,8 +1,12 @@
 # Table of contents
 
+## Fivemerr
+
+* [Welcome to Fivemerr](README.md)
+
 ## Introduction to API
 
-* [Setup](README.md)
+* [Setup](<README (1).md>)
 * [Images](introduction-to-api/images.md)
 * [Audio](introduction-to-api/audio.md)
 * [Video](introduction-to-api/video.md)
