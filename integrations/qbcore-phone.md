@@ -5,12 +5,12 @@ Every standard QB-Core server comes with `screenshot-basic` and `qb-phone` out o
 To _upgrade_ to Fivemerr, follow these simple instructions below:
 
 ## Server File Change
-- Navigate to `qb-phone/blob/main/server/main.lua`
+- Navigate to `qb-phone/main/server/main.lua`
 - Update `WebHook` to the Fivemerr API url based on your token type.
   - Missed the Fivemerr setup? You can find it [here](https://docs.fivemerr.com/)
 
 ## Client File Change
-- Navigate to `qb-phone/blob/main/client/main.lua`
+- Navigate to `qb-phone/main/client/main.lua`
 - Search for `exports['screenshot-basic']:requestScreenshotUpload` within this file
 - You should find something _similar_ to this:
 ```lua
