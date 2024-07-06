@@ -11,8 +11,8 @@
 ## Integrations
 
 * [screenshot-basic](integrations/screenshot-basic.md)
-* [LB Phone](integrations/lb-phone.md)
 * [QBCore Phone](integrations/qbcore-phone.md)
+* [LB Phone](integrations/lb-phone.md)
 * [GKS Phone](integrations/gks-phone.md)
 * [YSeries Phone](integrations/yseries-phone.md)
 * [NPWD](integrations/npwd.md)
