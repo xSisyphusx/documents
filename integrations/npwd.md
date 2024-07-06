@@ -6,8 +6,7 @@ Resource can be located [here.](https://github.com/project-error/npwd)
 
 Edit the following code block to look as below:
 
-````json
-```
+```json
 "images": {
     "url": "https://api.fivemerr.com/v1/media/images",
     "type": "file",
@@ -20,7 +19,6 @@ Edit the following code block to look as below:
     "returnedDataIndexes": ["url"]
   },
 ```
-````
 
 Add the following to the lines to [`imageSafety`](https://github.com/project-error/npwd/blob/43fea82c1f838ad5e5e258fa9184fe43ffba571c/config.default.json#L43)
 
