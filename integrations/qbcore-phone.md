@@ -10,6 +10,20 @@ To _upgrade_ to Fivemerr, follow these simple instructions below:
 * Update `WebHook` to the Fivemerr API url based on your token type.
   * Missed the Fivemerr setup? You can find it [here](https://docs.fivemerr.com/introduction-to-api/readme)
 
+```lua
+local QBCore = exports['qb-core']:GetCoreObject()
+local QBPhone = {}
+local AppAlerts = {}
+local MentionedTweets = {}
+local Hashtags = {}
+local Calls = {}
+local Adverts = {}
+local GeneratedPlates = {}
+local WebHook = 'https://api.fivemerr.com/v1/media/images' -- Enter the API URL here
+local bannedCharacters = { '%', '$', ';' }
+local TWData = {}
+```
+
 ## Client File Change
 
 * Navigate to `qb-phone/main/client/main.lua`
