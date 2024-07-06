@@ -12,7 +12,7 @@ exports['screenshot-basic']:requestScreenshotUpload('https://api.fivemerr.com/v1
     encoding = 'png'
 }, function(data)
     local resp = json.decode(data)
-    local link = (resp and resp.url) or 'inalid_url'
+    local link = (resp and resp.url) or 'invalid_url'
     print(link)
 end)
 ```
