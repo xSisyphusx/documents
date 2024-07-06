@@ -88,3 +88,19 @@ response = requests.post('https://api.fivemerr.com/v1/media/audios', files=files
 print(response.json())
 
 ```
+
+
+
+## Support Audio Types
+
+If you need any other added, let us know.
+
+* **MPEG** - `.mpeg`
+* **WAV** - `.wav`
+* **OGG** - `.ogg`
+* **AAC** - `.aac`
+* **FLAC** - `.flac`
+* **WMA** - `.wma`
+* **AIFF** - `.aiff` or `.aif`
+* **PCM** - `.pcm`
+* **AMR** - `.amr`
