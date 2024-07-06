@@ -89,9 +89,7 @@ print(response.json())
 
 ```
 
-
-
-## Support Audio Types
+### Support Audio Types
 
 If you need any other added, let us know.
 

@@ -88,7 +88,7 @@ response = requests.post('https://api.fivemerr.com/v1/media/images', files=files
 print(response.json())
 ```
 
-## Supported Image Extensions&#x20;
+### Supported Image Extensions&#x20;
 
 If you need any other added, let us know.
 

@@ -86,10 +86,9 @@ response = requests.post('https://api.fivemerr.com/v1/media/videos', files=files
 
 # Print the response
 print(response.json())
-
 ```
 
-## Supported Video Type
+### Supported Video Type
 
 If you need any other added, let us know.
 
