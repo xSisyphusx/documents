@@ -6,19 +6,18 @@ located: lb-phone/config/config.lua
 
 ![image](https://github.com/FiveMerr/documents/assets/112778590/5084d36d-f9c2-4d86-bad1-1a8ccb580327)
 
-
-## Create a MEDIA API key and add it below to all 3,
+## Create a MEDIA API key and add it below to all 3
 
 Located: lb-phone/server/apiKeys.lua
 
 ![image](https://github.com/FiveMerr/documents/assets/112778590/b8eac3e8-287e-495d-aeac-7f338d48ba66)
 
-
 ## On UploadMethods at Custom. Replace for this
 
 Located: lb-phone/shared/upload.lua
 
-Custom = {
+```lua
+    Custom = {
         Video = {
             url = "https://api.fivemerr.com/v1/media/videos",
             field = "file", -- The field name (formData)
@@ -62,8 +61,9 @@ Custom = {
             },
         },
     },
+```
 
-Then it should look like this
+Should look like this now:&#x20;
 
 ![image](https://github.com/FiveMerr/documents/assets/112778590/93a3ba7c-f742-4fbc-bb66-99a00da6233a)
 
