@@ -16,3 +16,4 @@
 * [GKS Phone](integrations/gks-phone.md)
 * [YSeries Phone](integrations/yseries-phone.md)
 * [NPWD](integrations/npwd.md)
+* [QS Phone](integrations/qs-phone.md)
