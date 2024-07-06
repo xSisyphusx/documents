@@ -1,8 +1,8 @@
 # NPWD
 
-Resource can be located [here.](https://github.com/project-error/npwd)
-
-* Travel to [config.default.json](https://github.com/project-error/npwd/blob/master/config.default.json#L32).
+Resource can be located [here.](https://github.com/project-error/npwd)\
+\
+Travel to [config.default.json](https://github.com/project-error/npwd/blob/master/config.default.json#L32).
 
 Edit the following code block to look as below:
 
