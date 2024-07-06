@@ -44,7 +44,7 @@ QBCore.Functions.TriggerCallback('qb-phone:server:GetWebhook', function(hook)
     end
     exports['screenshot-basic']:requestScreenshotUpload(tostring(hook), 'file', {
         headers = {
-            Authorization = 'f4b84fca37aec220b464f965c7e1b030'
+            Authorization = 'YOUR_API_KEY'
         } 
     }, function(data)
             SaveToInternalGallery()
