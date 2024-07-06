@@ -94,6 +94,7 @@ If you need any other added, let us know.
 
 * **JPEG** - `.jpeg`
 * **PNG** - `.png`
+* **WEBP**- `.webp`
 * **GIF** - `.gif`
 * **BMP** - `.bmp`
 * **TIFF** - `.tif` or `.tiff`
