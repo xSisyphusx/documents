@@ -5,14 +5,17 @@ Every standard QB-Core server comes with `screenshot-basic` and `qb-phone` out o
 To _upgrade_ to Fivemerr, follow these simple instructions below:
 
 ## Server File Change
-- Navigate to `qb-phone/main/server/main.lua`
-- Update `WebHook` to the Fivemerr API url based on your token type.
-  - Missed the Fivemerr setup? You can find it [here](https://docs.fivemerr.com/)
+
+* Navigate to `qb-phone/main/server/main.lua`
+* Update `WebHook` to the Fivemerr API url based on your token type.
+  * Missed the Fivemerr setup? You can find it [here](https://docs.fivemerr.com/introduction-to-api/readme)
 
 ## Client File Change
-- Navigate to `qb-phone/main/client/main.lua`
-- Search for `exports['screenshot-basic']:requestScreenshotUpload` within this file
-- You should find something _similar_ to this:
+
+* Navigate to `qb-phone/main/client/main.lua`
+* Search for `exports['screenshot-basic']:requestScreenshotUpload` within this file
+* You should find something _similar_ to this:
+
 ```lua
 QBCore.Functions.TriggerCallback('qb-phone:server:GetWebhook', function(hook)
     if not hook then
@@ -33,9 +36,10 @@ QBCore.Functions.TriggerCallback('qb-phone:server:GetWebhook', function(hook)
 end)
 ```
 
-Found it? Great! 
+Found it? Great!
 
 Now update it to this:
+
 ```lua
 QBCore.Functions.TriggerCallback('qb-phone:server:GetWebhook', function(hook)
     if not hook then
