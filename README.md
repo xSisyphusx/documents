@@ -4,7 +4,7 @@ description: >-
   share your game server files.
 ---
 
-# Welcome to Fivemerr
+# 🤓 Welcome to Fivemerr
 
 ### About Fivemerr
 
@@ -28,4 +28,5 @@ We use the 1 of 1 Servers Terms of Service and Privacy Policy, which can be foun
 * **Zero Usage**: Accounts with 0 GB usage will be deleted within 7 days to free up space for others.
 * **Storage Requests**: Once you reach 20 GB of storage, you can request additional space via a ticket at no extra charge, subject to availability and account review.
 * **Resource Abuse**: Do not abuse our resources, or your account will be terminated immediately without notice.
+* API Keys: You are prohibited from sharing them with anyone except for your own personal use and your own resources. Sharing API keys will result in immediate account termination without notice.
 
