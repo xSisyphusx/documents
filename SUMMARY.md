@@ -15,9 +15,10 @@
 ## Integrations
 
 * [screenshot-basic](integrations/screenshot-basic.md)
-* [QBCore Phone](integrations/qbcore-phone.md)
-* [LB Phone](integrations/lb-phone.md)
-* [GKS Phone](integrations/gks-phone.md)
-* [YSeries Phone](integrations/yseries-phone.md)
-* [NPWD](integrations/npwd.md)
-* [QS Phone](integrations/qs-phone.md)
+* [Phone Scripts](integrations/phone-scripts/README.md)
+  * [QBCore Phone](integrations/phone-scripts/qbcore-phone.md)
+  * [LB Phone](integrations/phone-scripts/lb-phone.md)
+  * [GKS Phone](integrations/phone-scripts/gks-phone.md)
+  * [YSeries Phone](integrations/phone-scripts/yseries-phone.md)
+  * [NPWD](integrations/phone-scripts/npwd.md)
+  * [QS Phone](integrations/phone-scripts/qs-phone.md)
