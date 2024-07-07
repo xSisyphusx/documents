@@ -13,8 +13,9 @@
 * [ℹ️ Logs](introduction-to-api/logs.md)
 
 ## Integrations
-* [ShareX](integrations/ShareX.md)
+
 * [screenshot-basic](integrations/screenshot-basic.md)
+* [ShareX](integrations/ShareX.md)
 * [📶 Phone Scripts](integrations/phone-scripts/README.md)
   * [📳 QBCore Phone](integrations/phone-scripts/qbcore-phone.md)
   * [📳 LB Phone](integrations/phone-scripts/lb-phone.md)
