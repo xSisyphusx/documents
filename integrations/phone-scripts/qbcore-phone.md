@@ -1,4 +1,4 @@
-# QBCore Phone
+# 📳 QBCore Phone
 
 Every standard QB-Core server comes with `screenshot-basic` and `qb-phone` out of the box. This at present is configured to use Discord as a CDN.
 
@@ -11,17 +11,7 @@ To _upgrade_ to Fivemerr, follow these simple instructions below:
   * Missed the Fivemerr setup? You can find it [here](https://docs.fivemerr.com/introduction-to-api/readme)
 
 ```lua
-local QBCore = exports['qb-core']:GetCoreObject()
-local QBPhone = {}
-local AppAlerts = {}
-local MentionedTweets = {}
-local Hashtags = {}
-local Calls = {}
-local Adverts = {}
-local GeneratedPlates = {}
 local WebHook = 'https://api.fivemerr.com/v1/media/images' -- Enter the API URL here
-local bannedCharacters = { '%', '$', ';' }
-local TWData = {}
 ```
 
 ## Client File Change
