@@ -23,4 +23,5 @@
   * [📳 YSeries Phone](integrations/phone-scripts/yseries-phone.md)
   * [📳 NPWD](integrations/phone-scripts/npwd.md)
   * [📳 nPhone](integrations/phone-scripts/nphone.md)
+  * [📳 JP Phone](integrations/phone-scripts/jp-phone.md)
   * [📵 QS Phone](integrations/phone-scripts/qs-phone.md)
