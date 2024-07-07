@@ -22,4 +22,5 @@
   * [📳 GKS Phone](integrations/phone-scripts/gks-phone.md)
   * [📳 YSeries Phone](integrations/phone-scripts/yseries-phone.md)
   * [📳 NPWD](integrations/phone-scripts/npwd.md)
+  * [📳 nPhone](integrations/phone-scripts/nphone.md)
   * [📵 QS Phone](integrations/phone-scripts/qs-phone.md)
