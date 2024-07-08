@@ -25,3 +25,5 @@
   * [📳 nPhone](integrations/phone-scripts/nphone.md)
   * [📳 JP Phone](integrations/phone-scripts/jp-phone.md)
   * [📵 QS Phone](integrations/phone-scripts/qs-phone.md)
+* [👮 MDT Scripts](integrations/mdt-scripts/README.md)
+  * [🚓 ps-mdt](integrations/mdt-scripts/ps-mdt.md)
