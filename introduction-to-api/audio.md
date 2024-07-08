@@ -2,7 +2,7 @@
 description: To upload an audio to the Audio API, send a POST request to the API endpoint.
 ---
 
-# Audio
+# 🔊 Audio
 
 ### API Endpoint
 

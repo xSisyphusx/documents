@@ -2,7 +2,7 @@
 description: To upload an image to the Image API, send a POST request to the API endpoint.
 ---
 
-# Images
+# 🖼️ Images
 
 ### API Endpoint
 

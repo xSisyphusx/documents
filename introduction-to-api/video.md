@@ -2,7 +2,7 @@
 description: To upload a video to the Video API, send a POST request to the API endpoint.
 ---
 
-# Video
+# 🎥 Video
 
 ### API Endpoint
 

@@ -1,4 +1,4 @@
-# LB Phone
+# 📳 LB Phone
 
 ## Set your config to "Custom".
 

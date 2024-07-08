@@ -1,3 +1,3 @@
-# Logs
+# ℹ️ Logs
 
 Coming soon...

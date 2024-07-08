@@ -4,7 +4,7 @@ description: >-
   account at Fivemerr.
 ---
 
-# Setup
+# ✅ Setup
 
 1. Sign up at Fivemerr and login to your account.
 2. Navigate to the "API Tokens" page in the dashboard.
