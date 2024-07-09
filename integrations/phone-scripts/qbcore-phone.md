@@ -12,6 +12,34 @@ To _upgrade_ to Fivemerr, follow these simple instructions below:
 
 ```lua
 local WebHook = 'https://api.fivemerr.com/v1/media/images' -- Enter the API URL here
+local WebHookKey = 'WEBHOOKKEY' -- Add this new var containing your API Key
+```
+
+* On line 585/586 locate and find the following callback registration event
+
+```lua
+QBCore.Functions.CreateCallback('qb-phone:server:GetWebhook', function(_, cb)
+    if WebHook ~= '' then
+        cb(WebHook)
+    else
+        print('Set your webhook to ensure that your camera will work!!!!!! Set this on line 10 of the server sided script!!!!!')
+        cb(nil)
+    end
+end)
+```
+Found it? Great!
+
+Now replace it to this:
+
+```lua
+QBCore.Functions.CreateCallback('qb-phone:server:GetWebhook', function(_, cb)
+    if WebHook ~= '' then
+        cb(WebHook, WebHookKey)
+    else
+        print('Set your webhook to ensure that your camera will work!!!!!! Set this on line 10 of the server sided script!!!!!')
+        cb(nil)
+    end
+end)
 ```
 
 ## Client File Change
@@ -45,14 +73,14 @@ Found it? Great!
 Now update it to this:
 
 ```lua
-QBCore.Functions.TriggerCallback('qb-phone:server:GetWebhook', function(hook)
-    if not hook then
+QBCore.Functions.TriggerCallback('qb-phone:server:GetWebhook', function(hook, key)
+    if not hook or not key then
         QBCore.Functions.Notify('Camera not setup', 'error')
         return
     end
     exports['screenshot-basic']:requestScreenshotUpload(tostring(hook), 'file', {
         headers = {
-            Authorization = 'YOUR_API_KEY'
+            Authorization = key
         } 
     }, function(data)
             SaveToInternalGallery()
