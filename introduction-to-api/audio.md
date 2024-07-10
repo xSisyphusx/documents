@@ -181,7 +181,7 @@ axios.request(config)
 });
 ```
 
-## Support Audio Types
+## Supported Audio Types
 
 If you need any other added, let us know.
 
