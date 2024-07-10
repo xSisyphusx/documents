@@ -4,17 +4,32 @@ description: To upload an image to the Image API, send a POST request to the API
 
 # 🖼️ Images
 
-### API Endpoint
+## API Endpoint
 
 URL: [https://api.fivemerr.com/v1/media/images](https://api.fivemerr.com/v1/media/images)
 
-### Headers
+## Authorization
 
-Include the `Authorization` header with your API key.
+You can access the API using one of the following methods:
+
+* Include the `Authorization` header with your API key.
+* Include the `apiKey` as a query parameter in the URL.
+
+## Supported Request Formats
+
+The API supports the following request formats:
+
+* form-data
+* json
+* x-www-form-urlencoded
+
+Each request must include the appropriate header to be accepted.
+
+## Form Data Requests
 
 ### Body
 
-The request body should be a form-data object containing a file named `file`.
+The request body should be a form-data object containing a file named `file` or `data`.&#x20;
 
 ### Response
 
@@ -88,7 +103,84 @@ response = requests.post('https://api.fivemerr.com/v1/media/images', files=files
 print(response.json())
 ```
 
-### Supported Image Extensions&#x20;
+## JSON Requests
+
+### Body
+
+The request body should be a JSON string containing a key named `file` or `data`.  Data should be encoded as base64 in the following format.
+
+```
+data:[<mediatype>][;base64],<data>
+```
+
+### Example with Node.js (with Axios)
+
+<pre class="language-javascript"><code class="lang-javascript"><strong>const axios = require('axios');
+</strong>
+let data = JSON.stringify({
+  "file": "data:image/png;base64,iVBORw0KGgoAAA=="
+});
+
+let config = {
+  method: 'post',
+  maxBodyLength: Infinity,
+  url: 'https://api.fivemerr.com/v1/media/images',
+  headers: { 
+    'Content-Type': 'application/json', 
+    'Authorization': '••••••'
+  },
+  data : data
+};
+
+axios.request(config)
+.then((response) => {
+  console.log(JSON.stringify(response.data));
+})
+.catch((error) => {
+  console.log(error);
+});
+</code></pre>
+
+## x-www-form-urlencoded Requests
+
+### Body
+
+The request body should be x-www-form-urlencoded containing a key named `file` or `data`.  Data should be encoded as base64 in the following format.
+
+```
+data:[<mediatype>][;base64],<data>
+```
+
+### Example with Node.js (with Axios)
+
+```javascript
+const axios = require('axios');
+const qs = require('qs');
+let data = qs.stringify({
+  'file': 'data:image/png;base64,iVBORw0kJggg==' 
+});
+
+let config = {
+  method: 'post',
+  maxBodyLength: Infinity,
+  url: 'https://api.fivemerr.com/v1/media/images',
+  headers: { 
+    'Content-Type': 'application/x-www-form-urlencoded', 
+    'Authorization': '••••••'
+  },
+  data : data
+};
+
+axios.request(config)
+.then((response) => {
+  console.log(JSON.stringify(response.data));
+})
+.catch((error) => {
+  console.log(error);
+});
+```
+
+## Supported Image Extensions&#x20;
 
 If you need any other added, let us know.
 
