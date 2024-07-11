@@ -8,7 +8,8 @@ This will allow you to utilize ShareX to automatically upload your screenshots f
 - Create New Uploader
 - Set name Fivemerr
 - Request URL https://api.fivemerr.com/v1/media/images (Must be typed in)
-- Header Name: Authorization Value: Your_Api_Key
+- Header Name: Authorization
+- Value: Your_Api_Key (Add your API Key here)
 - File Form Name file
 - URL {json:url}
 - Change destination to Custom Image Uploader
